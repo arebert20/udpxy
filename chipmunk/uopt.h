@@ -30,14 +30,14 @@
 
 static const int MIN_CLIENT_COUNT       = 1;
 static const int MAX_CLIENT_COUNT       = 5000;
-static const int DEFAULT_CLIENT_COUNT   = 50;
+static const int DEFAULT_CLIENT_COUNT   = 3;
 
 static const ssize_t MIN_MCACHE_LEN    = 4 * 1024;
 static const ssize_t MAX_MCACHE_LEN    = 2048 * 1024;
 static const ssize_t DEFAULT_CACHE_LEN = 2 * 1024;
 static const u_short DEFAULT_MCAST_REFRESH = 0;
 
-static const ssize_t MIN_SOCKBUF_LEN = (4096 * 64);
+static const ssize_t MIN_SOCKBUF_LEN = (1024 * 64);
 
 
 /* udpxy options
